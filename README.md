@@ -5,9 +5,10 @@ HTML is the standard markup language used to create and structure the content of
 __Explanation__:
 
 HTML acts as the skeleton of a webpage.
-It defines what appears on the page, such as text fields, buttons, and images.
-Uses tags like <h1>, <p>, <form>, and <input> to structure content.
+It defines what appears on the page, such as text fields, buttons and images.
+Uses tags like <h1>, <p>, <form> and <input> to structure content.
 It is not a programming language but a markup language.
+
 👉 Example: The contact form (Name, Email, Message, Submit button) is created using HTML.
 
 2. CSS (Cascading Style Sheets):
@@ -20,6 +21,7 @@ CSS acts as the design layer of a webpage.
 It makes websites visually attractive.
 Allows developers to apply styles to multiple pages at once.
 Supports animations and responsive design for mobile and desktop screens.
+
 👉 Example:
 The pink heading, button color, spacing, shadows, and card-style layout in the image are designed using CSS.
 
@@ -32,6 +34,7 @@ __Explanation__:
 JavaScript makes webpages interactive.
 It can validate form inputs, create pop-up messages, update content without reloading the page, and handle user actions.
 Works together with HTML and CSS to create modern websites.
+
 👉 Example:
 When you click the Submit button, JavaScript can check whether the email is valid or if any field is empty.
 **EXAMPLE**:
