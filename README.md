@@ -4,40 +4,42 @@ HTML is the standard markup language used to create and structure the content of
 
 __Explanation__:
 
-HTML acts as the skeleton of a webpage.
-It defines what appears on the page, such as text fields, buttons and images.
-Uses tags like <h1>, <p>, <form> and <input> to structure content.
-It is not a programming language but a markup language.
+*HTML acts as the skeleton of a webpage*.
+*It defines what appears on the page, such as text fields, buttons, and images*.
+*Uses tags like <h1>, <p>, <form>, and <input> to structure content*.
+*It is not a programming language but a markup language*.
 
 👉 Example: The contact form (Name, Email, Message, Submit button) is created using HTML.
 
-2. CSS (Cascading Style Sheets):
+2. CSS (Cascading Style Sheets)
 # Definition:
 CSS is a style sheet language used to control the appearance and layout of web pages, including colors, fonts, spacing, alignment, and responsiveness.
 
 __Explanation__:
 
-CSS acts as the design layer of a webpage.
-It makes websites visually attractive.
-Allows developers to apply styles to multiple pages at once.
-Supports animations and responsive design for mobile and desktop screens.
+*CSS acts as the design layer of a webpage*.
+*It makes websites visually attractive*.
+*Allows developers to apply styles to multiple pages at once*.
+*Supports animations and responsive design for mobile and desktop screens*.
 
 👉 Example:
 The pink heading, button color, spacing, shadows, and card-style layout in the image are designed using CSS.
 
-3. JavaScript:
+3. JavaScript
 # Definition:
 JavaScript is a high-level programming language used to add interactivity and dynamic behavior to web pages.
 
 __Explanation__:
 
-JavaScript makes webpages interactive.
-It can validate form inputs, create pop-up messages, update content without reloading the page, and handle user actions.
-Works together with HTML and CSS to create modern websites.
+*JavaScript makes webpages interactive*.
+*It can validate form inputs, create pop-up messages, update content without reloading the page, and handle user actions*.
+*Works together with HTML and CSS to create modern websites*.
 
 👉 Example:
 When you click the Submit button, JavaScript can check whether the email is valid or if any field is empty.
+
 **EXAMPLE**:
+
 <!DOCTYPE html>
 <html>
 <head>
