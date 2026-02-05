@@ -1,41 +1,21 @@
-1. HTML (HyperText Markup Language):
-# Definition:
-HTML is the standard markup language used to create and structure the content of web pages. It uses tags to organize elements such as headings, paragraphs, images, links, and forms so that web browsers can display them properly.
+1.HTML (HyperText Markup Language):
+   # Definition:
+        HTML is the basic language used to create web pages. It gives structure to the webpage by adding text, images, buttons, and forms.
 
-__Explanation__:
+👉 Simple: HTML = Structure of the website.
 
-*HTML acts as the skeleton of a webpage*.
-*It defines what appears on the page, such as text fields, buttons and images*.
-*Uses tags like <h1> , <p> , <form>  and <input> to structure content*.
-*It is not a programming language but a markup language*.
+2.CSS (Cascading Style Sheets):
+    # Definition:
+	      CSS is used to make the webpage look attractive by adding colors, designs, fonts, and layout.
 
+👉 Simple: CSS = Style and design of the website.
 
+3.JavaScript:
+   # Definition:
+       JavaScript is a programming language that makes the webpage interactive and responsive to user actions.
 
-2. CSS (Cascading Style Sheets)
-# Definition:
-CSS is a style sheet language used to control the appearance and layout of web pages, including colors, fonts, spacing, alignment, and responsiveness.
-
-__Explanation__:
-
-*CSS acts as the design layer of a webpage*.
-*It makes websites visually attractive*.
-*Allows developers to apply styles to multiple pages at once*.
-*Supports animations and responsive design for mobile and desktop screens*.
-
-
-3. JavaScript
-# Definition:
-JavaScript is a high-level programming language used to add interactivity and dynamic behavior to web pages.
-
-__Explanation__:
-
-*JavaScript makes webpages interactive*.
-*It can validate form inputs, create pop-up messages, update content without reloading the page, and handle user actions*.
-*Works together with HTML and CSS to create modern websites*.
-
-
-**EXAMPLE**:
-
+👉 Simple: JavaScript = Makes the website work and respond. 
+**EXAMPLE:**
 <!DOCTYPE html>
 <html>
 <head>
