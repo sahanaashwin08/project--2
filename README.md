@@ -5,9 +5,9 @@ HTML is the standard markup language used to create and structure the content of
 __Explanation__:
 
 HTML acts as the skeleton of a webpage.
-**It defines what appears on the page, such as text fields, buttons, and images**.
-**Uses tags like <h1>, <p>, <form>, and <input> to structure content**.
-**It is not a programming language but a markup language**.
+It defines what appears on the page, such as text fields, buttons, and images.
+Uses tags like <h1>, <p>, <form>, and <input> to structure content.
+It is not a programming language but a markup language.
 👉 Example: The contact form (Name, Email, Message, Submit button) is created using HTML.
 
 2. CSS (Cascading Style Sheets):
