@@ -5,8 +5,8 @@
 👉 Simple: HTML = Structure of the website.
 
 2.CSS (Cascading Style Sheets):
-    # Definition:
-	      CSS is used to make the webpage look attractive by adding colors, designs, fonts, and layout.
+   # Definition:
+       CSS is used to make the webpage look attractive by adding colors, designs, fonts, and layout.
 
 👉 Simple: CSS = Style and design of the website.
 
