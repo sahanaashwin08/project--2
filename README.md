@@ -1,223 +1,51 @@
-1.HTML (HyperText Markup Language):
-   # Definition:
-        HTML is the basic language used to create web pages. It gives structure to the webpage by adding text, images, buttons, and forms.
+✅ What is this code?
 
-👉 Simple: HTML = Structure of the website.
+It is a combination of HTML, CSS, and a little JavaScript used to design a contact form where users can enter their details like name, email, subject, and message.
 
-2.CSS (Cascading Style Sheets):
-   # Definition:
-       CSS is used to make the webpage look attractive by adding colors, designs, fonts, and layout
+# 1.HTML Part (Structure):
+    HTML creates the layout of the page.
 
-👉 Simple: CSS = Style and design of the website.
+ __In this code:__
 
-3.JavaScript:
-   # Definition:
-       JavaScript is a programming language that makes the webpage interactive and responsive to user actions.
+*<html> → Starts the webpage*
+*<head> → Contains title and links to styles*
+*<body> → Shows the content on the screen*
+*<form> → Creates the contact form*
+*<input> → Used for name, email, subject*
+*<textarea> → Used to type a message*
+*<img> → Displays images*
+*<input type="submit"> → Creates the submit button*
 
-👉 Simple: JavaScript = Makes the website work and respond. 
-**EXAMPLE:**
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="contact.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<style>
-    /*                       Hello! Welcome
-				Made By : Harikrushn Kanani;
-                                                                        */
-body
-{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	background:url(wave.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.box
-{
-	width: 400px;
-	position: absolute;
-	top:50%;
-	left: 65%;
-	transform: translate(-50%,-50%);
-	background:#fff;
-	padding: 40px;
-	box-sizing: border-box;
-	border:2px solid rgba(0,0,0,.1);
-	border-radius: 20px;
-	box-shadow: 0 5px 10px rgba(0,0,0,.2);
-}
-.box h2
-{
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	/*margin:0 0 40px;
-	padding: 0;*/
-	color:#f7497d;
-	text-transform: uppercase;
-}
-.box input
-{
-	padding: 10px 0;
-	margin-bottom: 30px;
-}
-.box textarea
-{
-	height: 80px;
-	padding: 10px 0;
-	margin-bottom: 40px;
-}
-.box input,
-.box textarea
-{
-	width: 100%;
-	box-sizing: border-box;
-	box-shadow: none;
-	outline: none;
-	border:none;
-	border-bottom: 2px solid #999;
-}
-.box textarea
-{
-	margin-bottom: 20px;
-	max-width: 100%;
-}
-.box input[type="submit"]
-{
-	background-color: #f7497d;
-	border-bottom: none;
-	cursor: pointer;
-	margin-bottom: 0;
-	text-transform: uppercase;
-}
-.box form div
-{
-	position: relative;
-}
-.box form div label
-{
-	position: absolute;
-	top:10px;
-	left: 0;
-	pointer-events: none;
-	transition: .5s;
-	color:#999;
-	
-}
+👉 Simple: HTML builds the page and form.
 
-/* CHANGE HERE */
-.handle-label
-{
-	top:-20px !important;	
-	left: 0 !important;
-	color:#f7497d;
-	font-size: 16px;
-}
+# 2.CSS Part (Design):
+     CSS is written inside <style> and is used to make the page look beautiful.
 
-.box input:focus,
-.box textarea:focus,
-.box input:valid,
-.box textarea:valid
-{
-	border-bottom: 2px solid #f7497d;
-}
-.box .img img
-{
-	margin-top: -1%;
-	margin-left: 34%;
-	left:100px;
-	height: 100px;
-	
-}
-.image img
-{
-	height: 500px;
-	width:500px;
-	display: flex;
-	margin-left: 10%;
-	margin-top: 8%;
-}
-.btn
-{
+__It does things like:__
 
-	display: block;
-	width: 100%;
-	height: 50px;
-	border-radius: 25px;
-	outline: none;
-	border:none;
-	background-image: linear-gradient(to right, #f7497d, #32be8f, #38d39f, #f7497d);
-	background-size: 200%;
-	border-bottom: none;
-	font-size: 1.2rem;
-	color: #000;
-	font-family: sans-serif;
-	text-transform: uppercase;
-	margin: 1rem 0;
-	cursor: pointer;
-	transition: .5s;
-}
-.btn:hover{
-	background-position: right;
-}
+*Adds background image*
+*Styles the contact box*
+*Changes colors*
+*Makes rounded corners*
+*Adds shadows*
+*Designs the submit button*
+Aligns everything properly
 
-input:invalid {
-	border-color: rgb(255, 0, 43);
-  }
-</style>
+👉 Simple: CSS makes the webpage attractive.
 
+# 3.JavaScript Part (Action):
+    At the bottom:
+    <script src="contact.js"></script>
+    this connects a JavaScript file.
 
-<!-- GIVE ID'S TO LABEL AND CALLED FUNCTION onfocus AT INPUTS -->
+__JavaScript is used to:__
 
-<body>
-	<div class="image">
-		<img src="Contact Us/bg.svg">
-	</div>
-	<div class="box">
-		<div class="img">
-			<img src="Contact Us/avatar.svg">
-		</div>
-		<h2>Contact Us</h2>
-		<form>
-		   <div class='container'>
-			<div>
-				<input onfocus="nameFocus()" type="text" name="" required="" >
-				<label id="name">Your lovely name</label>
-			</div>
-			<div>
-				<input onfocus="emailFocus()" type="email" name="" required="">
-				<label id="email">Your Email</label>
-			</div>
-			<div>
-				<input onfocus="subjectFocus()" type="text" name="" required="">
-				<label id="subject">Subject</label>
-			</div>
-			<div>
-				<textarea onfocus="messageFocus()" required=""></textarea>
-				<label id="message">Mesasge</label>
-			</div>
-			<!-- <a href="#">Submit</a> -->
-			<input type="submit" name="" value="submit" class="btn">
-		   </div>	   
-		</form>
-	</div>
-</body>
-<script src="contact.js"></script>
-</html>
-<!DOCTYPE html>
-<html lang="en">
+*Move labels when you click inside the input box*
+*Check if the fields are filled*
+*Improve user interaction*
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="site.css" type="text/css">
-    <title>Contact | SynBio Ltd</title>
-</head>
-
+👉 Simple: JavaScript makes the form interactive.
+#output
+http://127.0.0.1:5500/git/html-css-javascript-website/e-commer-website/contact.html
 #output
 http://127.0.0.1:5500/git/html-css-javascript-website/e-commer-website/contact.html
