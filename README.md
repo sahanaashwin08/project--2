@@ -122,10 +122,8 @@ __JavaScript is used to:__
 </body>
 </html>
 
-
-Uploading Screen Recording 2026-01-28 192838.mp4…
-
-
+# output photo:
+Uploading Screen Rec<img width="1555" height="839" alt="Screenshot 2026-02-09 154550" src="https://github.com/user-attachments/assets/ae1a26fc-a596-4b96-8262-2a2323b6b9b2" />
 
 #output
 http://127.0.0.1:5500/git/html-css-javascript-website/e-commer-website/contact.html
