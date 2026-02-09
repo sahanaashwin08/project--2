@@ -122,5 +122,10 @@ __JavaScript is used to:__
 </body>
 </html>
 
+
+Uploading Screen Recording 2026-01-28 192838.mp4…
+
+
+
 #output
 http://127.0.0.1:5500/git/html-css-javascript-website/e-commer-website/contact.html
