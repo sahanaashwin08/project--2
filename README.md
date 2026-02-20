@@ -49,81 +49,118 @@ __JavaScript is used to:__
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Contact Us</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f2f2f2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .contact-box {
-            background: white;
-            padding: 25px;
-            width: 320px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-        }
-
-        h2 {
-            text-align: center;
-            color: #f7497d;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        textarea {
-            height: 80px;
-        }
-
-        button {
-            width: 100%;
-            margin-top: 15px;
-            padding: 10px;
-            background: #f7497d;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #e63a6d;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Menu</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+      font-size: 1.1em;
+    }
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border: 2px solid #fff;
+    }
+    th {
+      background: #ff6f61;
+      color: #fff;
+    }
+    tr:nth-child(even) {
+      background: #ffe5d9;
+    }
+    tr:nth-child(odd) {
+      background: #fff3e6;
+    }
+    .category {
+      font-weight: bold;
+      color: #ff6f61;
+    }
+    .price {
+      color: #006400;
+      font-weight: bold;
+    }
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  </style>
 </head>
-
 <body>
+  <h1>🍴 Food Menu</h1>
+  <table>
+    <tr>
+      <th>Photo</th>
+      <th>Item</th>
+      <th>Category</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80?text=Pizza" alt="Pizza"></td>
+      <td>Margherita Pizza</td>
+      <td class="category">Main Course</td>
+      <td class="price">₹250</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80?text=Burger" alt="Burger"></td>
+      <td>Veg Burger</td>
+      <td class="category">Snacks</td>
+      <td class="price">₹120</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80?text=Fries" alt="Fries"></td>
+      <td>French Fries</td>
+      <td class="category">Snacks</td>
+      <td class="price">₹80</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80?text=Paneer" alt="Paneer Butter Masala"></td>
+      <td>Paneer Butter Masala</td>
+      <td class="category">Main Course</td>
+      <td class="price">₹300</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80?text=IceCream" alt="Ice Cream"></td>
+      <td>Chocolate Ice Cream</td>
+      <td class="category">Dessert</td>
+      <td class="price">₹90</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80?text=Shake" alt="Mango Shake"></td>
+      <td>Mango Shake</td>
+      <td class="category">Beverage</td>
+      <td class="price">₹70</td>
+    </tr>
+  </table>
 
-    <div class="contact-box">
-        <h2>Contact Us</h2>
-
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <input type="text" placeholder="Subject" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-
+  <script>
+    // Highlight expensive items
+    const prices = document.querySelectorAll(".price");
+    prices.forEach(price => {
+      let value = parseInt(price.innerText.replace("₹",""));
+      if(value >= 200){
+        price.style.color = "red";
+      }
+    });
+  </script>
 </body>
 </html>
 
-# output photo:
-Uploading Screen Rec<img width="1555" height="839" alt="Screenshot 2026-02-09 154550" src="https://github.com/user-attachments/assets/ae1a26fc-a596-4b96-8262-2a2323b6b9b2" />
 
 #output
-http://127.0.0.1:5500/git/html-css-javascript-website/e-commer-website/contact.html
+http://127.0.0.1:5500/git/html-css-javascript-website/e-commer-website/index.html
+
